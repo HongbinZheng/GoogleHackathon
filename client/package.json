@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "audio-recorders": "^1.1.9",
+    "blob-util": "^2.0.2",
     "file-saver": "^2.0.2",
     "mic-recorder-to-mp3": "^2.2.1",
     "react": "^16.12.0",
