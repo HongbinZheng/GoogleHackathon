@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import File from './components/File';
+import FileButton from './components/FileButton';
 
 
 import './App.css';
@@ -18,10 +19,10 @@ class App extends Component {
   
   
   render(){
-    console.log(this.state.files)
     return (
       <div className="App">
-        <File files={this.state.file} />     
+        <h1>Warda</h1>
+          <FileButton />     
       </div>
     );
   }
